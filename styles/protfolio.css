@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0 35px 0 150px;
   }
   
 nav ul {
@@ -57,19 +57,26 @@ nav li a{
     font-size: 45px;
   }
 
+/* header styles */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* banner styles */
 
 .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 35px 0 150px;
 }
 .banner-pro-pic {
     width: 580px;
 }  
 
 .banner-content {
-    width: 585;
+    max-width: 580px;
 }
 .banner-grettings{
     font-size: 45px;
@@ -79,4 +86,8 @@ nav li a{
     font-size: 85px;
     font-weight: bold;
     line-height: auto;
+}
+.banner-discription {
+    font-size: 18px;
+    line-height: 30px;
 }
